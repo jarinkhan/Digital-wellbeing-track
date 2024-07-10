@@ -54,6 +54,7 @@ main section h2 {
 
 }
 
+
 .dark-color {
     color: #0D1321;
     font-weight: 800;
@@ -106,14 +107,16 @@ main section h2 {
     text-align: left;
     font-size: 16px;
     font-weight: 400;
+    
 
 }
 
 .secondary-btn {
    text-align: center;
-   background-color: white;
+   background-color: unset;
    width:171px;
    height: 47px;
+   justify-content: flex-start;
 
    
    
@@ -141,17 +144,111 @@ main section h2 {
 
 }
 
-.about-item-b {
+.about-item-b{
     background-image: url(../assets/Group\ 3.png);
-   
     background-repeat: no-repeat;
     background-position: top left;
     margin-top: auto;
-    margin: 0;
-    
-    
+    margin-right: 0cap;
+    text-align:center;
+    margin: 20px;
+
 
     
+}
+.the-icons {
+   
+  padding: 32px;
+  gap: 24px;
+  display: inline-block;
+}
+
+
+.the-icons button {
+    margin-top: 10px;
+    padding: 20px;
+    text-decoration: underline;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+    
+}
+
+.aligning {
+    margin-top: 48px;
+}
+.the-icons-abc {
+    display: flex;
+    gap:20px;
+}
+
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+    
+
+}
+
+
+.a-icon {
+    padding: 30px;
+    background-color: #efdad5;
+    width: 364px;
+
+}
+
+.b-icon {
+    padding: 30px;
+    background-color: #cad6ed;
+    width: 364px;
+
+}
+
+.c-icon {
+    padding: 30px;
+    background-color: #faefb0;
+    width: 364px;
+
+}
+
+.add-color {
+    background-color: whitesmoke;
+    
+}
+
+
+footer {
+    padding: 20px;
+    text-align: left;
+    background: #f7f7f7;
+    border-top: 1px solid #ddd;
+}
+
+.link-socials {
+    
+   width: 24px;
+   display: inline-flex;
+}
+
+
+
+
+.handshake-picture {
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: none;
+    width: 1140px;
+    color: white;
+    
+
+}
+
+.support-part form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 

@@ -109,6 +109,12 @@ main section h2 {
     font-weight: 400;
     
 
+
+}
+
+.about-items {
+    margin: 0;
+    text-indent: initial;
 }
 
 .secondary-btn {
@@ -134,6 +140,10 @@ main section h2 {
     font-weight: 700;
     font-size: 24px;
     padding-top: 58.5px;
+ }
+ .about-item-b p {
+    text-align: justify;
+    margin-right: 30px;
  }
 
  
@@ -203,6 +213,7 @@ main section h2 {
     padding: 30px;
     background-color: #cad6ed;
     width: 364px;
+ 
 
 }
 
@@ -227,11 +238,19 @@ footer {
 }
 
 .link-socials {
-    
-   width: 24px;
-   display: inline-flex;
+    width: 1140px;
+    margin-right: 5px;
+    display: flex;
 }
+  
+nav {
+    margin: 0px 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 
+}
 
 
 

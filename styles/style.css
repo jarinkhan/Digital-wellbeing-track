@@ -1,41 +1,27 @@
 .bg {
- text-align: center;
- padding: auto;
- background-color: #f7f7f7;
- background-image: url("assets/Hero-bg.png");
- background-size: cover;
- background-position: center;
-
-}
-
-
-.cg {
-    background-image: url("assets/Hero-bg.png");
-    background-size: cover;
     text-align: center;
     
-    justify-content: center;
-    align-items: center;
-}
+    background-position: center;
+   }
    
    
-
-
-
-.azerett> {
+  .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: none;
     font-style: normal;
-    
   }
-
-.bttn {
-    background-color: black;
-    font-size: 40px;
-    color: white;
-}
-
-section {
-    background-image: url("assets/Hero-bg.png");
-}
+  
+   .bttn {
+       background-color: black;
+       font-size: 40px;
+       font-weight: bold;
+       color: white;
+       border: none;
+       padding: 18px 35px;
+       border-radius: 5px;
+   }
+   
+ section {
+       background-image: url('../assets/Hero-bg.png');
+       background-repeat: none;
+   }
